@@ -1,0 +1,141 @@
+/* Print-specific styles */
+@media print {
+    * {
+        
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 12pt;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+        background: white !important;
+    }
+    
+    .no-print {
+        display: none !important;
+    }
+    
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bill-print {
+        background: white;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 20px;
+        max-width: none;
+        margin: 0;
+    }
+    
+    .bill-header {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #000;
+    }
+    
+    .bill-header h1 {
+        color: #000;
+        font-size: 24pt;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    .bill-header p {
+        font-size: 14pt;
+        margin: 0;
+    }
+    
+    .bill-info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        font-size: 10pt;
+    }
+    
+    .bill-customer h3,
+    .bill-details h3 {
+        color: #000;
+        font-size: 14pt;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .customer-info {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .info-row {
+        display: flex;
+        justify-content: flex-start;
+        padding: 3px 0;
+        border-bottom: none;
+    }
+    
+    .info-row .label {
+        font-weight: bold;
+        color: #000;
+        width: 150px;
+        flex-shrink: 0;
+    }
+    
+    .info-row .value {
+        color: #000;
+    }
+    
+    .bill-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    
+    .bill-table th,
+    .bill-table td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #000;
+        font-size: 10pt;
+    }
+    
+    .bill-table th {
+        background-color: #f0f0f0 !important;
+        font-weight: bold;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact; 
+    }
+    
+    .total-row {
+        background-color: #f0f0f0 !important;
+        font-weight: bold;
+        font-size: 12pt;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact; 
+    }
+    
+    .bill-footer {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 15px;
+        border-top: 1px solid #000;
+        font-size: 10pt;
+    }
+    
+    /* Page break settings */
+    .bill-print {
+        page-break-inside: avoid;
+    }
+    
+    /* Remove shadows and effects for print */
+    * {
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}

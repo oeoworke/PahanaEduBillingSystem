@@ -39,9 +39,7 @@
                 <% } %>
             </form>
             
-            <div class="login-footer">
-                <p>Default Login: admin / admin123</p>
-            </div>
+           
         </div>
     </div>
     

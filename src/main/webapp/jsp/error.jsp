@@ -9,6 +9,7 @@
     <title>Error - Pahana Bookshop</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
     
+    
      <style>
         .error-container {
             display: flex;

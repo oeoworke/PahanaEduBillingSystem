@@ -89,6 +89,13 @@
                 <h2>Support</h2>
                 <p>For any technical issues or questions, please contact the system administrator through your module leader.</p>
             </div>
+            <div class="help-section">
+                <h2>About This Application</h2>
+                <p>Application Name: <strong>Pahana Bookshop Management System</strong> <br>
+Version: <strong>1.0</strong> <br>
+Developed By: <strong>Anustan Anantharajah</strong> <br>
+Date: <strong>August-21-2025</strong><p>
+            </div>
         </div>
     </div>
 </body>

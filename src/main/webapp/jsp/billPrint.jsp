@@ -8,7 +8,7 @@
         return;
     }
     
-    // Receiving the data sent from the Servlet.
+    // Receiving the data sent from the Servlet
     Bill bill = (Bill) request.getAttribute("bill");
     Customer customer = (Customer) request.getAttribute("customer");
     boolean printMode = request.getAttribute("printMode") != null;

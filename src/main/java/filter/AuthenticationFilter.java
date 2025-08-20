@@ -33,7 +33,7 @@ public class AuthenticationFilter implements Filter {
         String contextPath = httpRequest.getContextPath();
         
         // Checking if a user is logged in
-        HttpSession session = httpRequest.getSession(false); // false - புதிய session-ஐ உருவாக்க வேண்டாம்
+        HttpSession session = httpRequest.getSession(false); // false - don't create new session
         boolean isLoggedIn = (session != null && session.getAttribute("username") != null);
 
         // Allow access to login page, servlet, and static files (css, js).

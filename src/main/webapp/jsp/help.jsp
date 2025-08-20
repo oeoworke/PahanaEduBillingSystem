@@ -92,7 +92,7 @@
             <div class="help-section">
                 <h2>About This Application</h2>
                 <p>Application Name: <strong>Pahana Bookshop Management System</strong> <br>
-Version: <strong>1.0</strong> <br>
+Version: <strong>1.0.0</strong> <br>
 Developed By: <strong>Anustan Anantharajah</strong> <br>
 Date: <strong>August-21-2025</strong><p>
             </div>

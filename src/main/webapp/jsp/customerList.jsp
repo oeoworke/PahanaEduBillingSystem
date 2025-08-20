@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.util.List, model.Customer" %>
 <%
-    // Session verification.
+    // Session verification
     HttpSession userSession = request.getSession(false);
     if (userSession == null || userSession.getAttribute("username") == null) {
         response.sendRedirect(request.getContextPath() + "/jsp/login.jsp");

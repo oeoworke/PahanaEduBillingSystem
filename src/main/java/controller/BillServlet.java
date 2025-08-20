@@ -131,11 +131,11 @@ public class BillServlet extends HttpServlet {
             
             Book book = bookDAO.getBookById(bookId);
             if (book != null && quantity > 0) {
-                // Checking if this book already exists in the cart
+                // Checking if this book already exists in the cart.
                 boolean itemExists = false;
                 for (BillDetail item : cart) {
                     if (item.getBookId() == bookId) {
-                        item.setQuantity(item.getQuantity() + quantity); // Increasing the number
+                        item.setQuantity(item.getQuantity() + quantity); // Increasing the number.
                         itemExists = true;
                         break;
                     }

@@ -2,7 +2,7 @@ package model;
 
 /**
  * It refers to each line item in a bill.
- * That is, it stores the number and price of a particular book.
+ * That is, it stores the number and price of a particular book
  */
 public class BillDetail {
     
